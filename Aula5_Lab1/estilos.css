@@ -1,0 +1,111 @@
+﻿* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding:0px;
+    margin:0px;
+    
+}
+
+html {
+    padding:0px;
+    margin:0px;
+    
+}
+
+#pagina {
+    font-family: Tahoma, Arial, Helvetica;
+    color:#313131;
+}
+
+#cabecalho {
+    background-color:#6872a3;
+    color:#d6ddff;
+    padding:20px;
+}
+
+    #cabecalho h1 {
+        font-size:150%;
+        letter-spacing:-1px;
+
+    }
+
+
+#menu {
+    background-color:#313131;
+    padding:10px;
+}
+    #menu a {
+        color:white;
+        text-decoration:none;
+        display:inline-block;
+        margin-right:5px;
+    }
+
+@media screen and (max-width:400px) {
+    #menu a {
+        display:block;
+        margin-bottom:2px;
+        font-size:90%;
+    }
+}
+
+
+#conteudo {
+    max-width:900px;
+    margin:auto;
+    padding:20px;
+    margin-bottom:100px;
+}
+
+#conteudo h2 {
+    color:#6872a3;
+    letter-spacing:-1px;
+    margin-bottom:20px;
+}
+#conteudo p {
+    margin-bottom:10px;
+    line-height:150%;
+
+}
+
+
+#rodape {
+    border-top:1px solid #51597d;
+    
+    position:fixed;
+    bottom:0px;
+    left:0px;
+    width:100%;
+    overflow:hidden;
+    background-color:#bfcafb;
+    
+    
+}
+
+    #rodape p {
+        text-align:center;
+        font-size:80%;
+        padding:5px;
+    }
+
+@media screen and (max-width:400px) {
+    #rodape {
+        position:relative;
+    }
+    
+}
+
+
+
+
+ .erro {
+            color:red;
+            display:block;
+            margin-top:10px;
+            margin-bottom:10px;
+            font-weight:bold;
+
+        }

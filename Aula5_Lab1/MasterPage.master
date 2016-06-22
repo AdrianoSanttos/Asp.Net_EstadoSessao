@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    
+    <link href="estilos.css" rel="stylesheet" />
+
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div id="pagina">
+        
+        <div id="cabecalho">
+            <h1>Licenciamento</h1>
+        </div>
+
+        <div id="conteudo">
+            <asp:ContentPlaceHolder 
+                id="ContentPlaceHolder1" 
+                runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+        <div id="rodape">
+           <p>Licenciamento by ASP.NET(c) 2014</p>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
